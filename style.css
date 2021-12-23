@@ -117,3 +117,20 @@ aside img {
   width: 25rem;
   height: 15rem;
 }
+
+/* Media Query ---------------- */
+@media (max-width: 768px) {
+  #responsive {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+}
