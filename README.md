@@ -26,7 +26,7 @@ Figma: https://bityli.com/fAnpNMQ
 ### 📑 Next Features
 Rockeseat leave us some challenges to develop
 
-- Layout responsive 
+- Layout responsive ✔️
 - Create modal to save forms
 
 ##
