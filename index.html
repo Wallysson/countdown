@@ -47,13 +47,62 @@
           </div>
 
           <p>Inscreva-se para saber mais sobre o lançamento</p>
-          <button>Inscreva-se</button>
+          <button onclick="Modal.open()">Inscreva-se</button>
         </section>
         <aside class="side-right" id="responsive">
           <img src="./images/rocket.svg" alt="" />
         </aside>
       </div>
     </div>
+
+    <div class="modal-overlay">
+      <div class="modal-content">
+        <form action="">
+          <h2 id="form-title">Quero Embarcar Nesse Foguete!</h2>
+
+          <div class="form-group">
+            <input class="input-control" placeholder="Nome" />
+            <input type="email" class="input-control" placeholder="Email" />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="input-control"
+              placeholder="Endereço"
+              class="input-control"
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="input-control"
+              placeholder="Cidade"
+              style="flex: 3 1"
+              class="input-control"
+            />
+            <input
+              class="input-control"
+              type="input-control"
+              placeholder="Estado"
+              style="flex: 1"
+            />
+            <input
+              type="input-control"
+              placeholder="CEP"
+              style="flex: 1"
+              class="input-control"
+            />
+          </div>
+
+          <div class="form-group button">
+            <button type="submit" class="button" onclick="Modal.close()">
+              Save
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
