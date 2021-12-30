@@ -1,5 +1,5 @@
 const countdown = () => {
-  const countDate = new Date('Dec 31, 2021 00:00:00').getTime() // Peguei data futura e .getTime() pra virar valor inteiro
+  const countDate = new Date('Dec 31, 2022 00:00:00').getTime() // Peguei data futura e .getTime() pra virar valor inteiro
   const currentTime = new Date().getTime() // Peguei data de agora
   const gap = countDate - currentTime //  Diferença entre data futura e data atual
 
@@ -21,3 +21,12 @@ const countdown = () => {
 }
 
 setInterval(countdown, 1000)
+
+const Modal = {
+  open() {
+    document.querySelector('.modal-overlay').classList.add('active')
+  },
+  close() {
+    document.querySelector('.modal-overlay').classList.remove('active')
+  }
+}
